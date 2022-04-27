@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import PayrollForm from './components/payroll-form/payroll-form';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Hello World
-      </h1>
+      <PayrollForm />
     </div>
   );
 }
