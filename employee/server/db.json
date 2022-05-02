@@ -1,0 +1,77 @@
+{
+  "employee": [
+    {
+      "name": "mohit kumar new",
+      "gender": "male",
+      "departMent": [
+        "HR"
+      ],
+      "salary": "30000",
+      "startDate": "1 Jan 2020",
+      "notes": "",
+      "id": 1604589551457,
+      "profileURL": "../assets/profile-images/Ellipse 1.png"
+    },
+    {
+      "name": "mohit kumar test",
+      "gender": "male",
+      "departMent": [
+        "HR"
+      ],
+      "salary": "30000",
+      "startDate": "1 Jan 2020",
+      "notes": "",
+      "id": 1604589594363,
+      "profileURL": "../assets/profile-images/Ellipse 1.png"
+    },
+    {
+      "name": "mohit",
+      "gender": "male",
+      "departMent": [
+        "HR"
+      ],
+      "salary": "30000",
+      "startDate": "1 Jan 2020",
+      "notes": "",
+      "id": 1604589699566,
+      "profileURL": "../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "test",
+      "gender": "male",
+      "departMent": [
+        "HR"
+      ],
+      "salary": "30000",
+      "startDate": "1 Jan 2020",
+      "notes": "",
+      "id": 1604589731061,
+      "profileURL": "../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Tony",
+      "department": [
+        "Engineer"
+      ],
+      "gender": "male",
+      "salary": "420800",
+      "startDate": "6 2 2019",
+      "notes": "Test Tony",
+      "id": 1604589731062,
+      "profileURL": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Jack",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
+      "gender": "male",
+      "salary": "500000",
+      "startDate": "1 9 2019",
+      "notes": "Hi Jack",
+      "id": 1604589731063,
+      "profileURL": "../../assets/profile-images/Ellipse -3.png"
+    }
+  ]
+}
