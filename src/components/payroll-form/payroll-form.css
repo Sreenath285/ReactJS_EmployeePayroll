@@ -114,6 +114,13 @@ label {
 
 }
 
+.error {
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
 /* UC 3 */
 
 .profile-radio-content {

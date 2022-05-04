@@ -37,37 +37,35 @@ const Employee = (props) => {
                 <th>Start Date</th>
                 <th>Actions</th>
             </tr>
-                {
-                    props.employeeArray && props.employeeArray.map((element, index) =>(
-                       <tr key={index}>
-                            <td>{element.id}</td>
-                            <td><img className="profile" src={
-                                element.profileURL ===
-                                "../../assets/profile-images/Ellipse -1.png"
-                                  ? profile_pic_2
-                                  : element.profileURL ===
-                                    "../../assets/profile-images/Ellipse -3.png"
-                                  ? profile_pic_1
-                                  : element.profileURL ===
-                                    "../../assets/profile-images/Ellipse -7.png"
-                                  ? profile_pic_4
-                                  : profile_pic_3
-                            } alt=""/></td>
-                            <td>{element.name}</td>
-                            <td>{element.gender}</td>
-                            <td>
-                                {element.department && element.department.map((dept => 
-                                    (<div className="dept-label">{dept}</div>)))}
-                            </td>
-                            <td>{element.salary}</td>
-                            <td>{element.startDate}</td>
-                            <td>
-                                <img src={editEmp} alt="edit" onClick={() => update(element.id)}/>
-                                <img src={deleteEmp} alt="delete" onClick={() => remove(element.id)} />
-                            </td>
-                       </tr> 
-                    ))
-                }
+            {
+                props.employeeArray && props.employeeArray.map((element, index) =>(
+                    <tr key={index}>
+                        <td>{element.employeeId}</td>
+                        <td><img className="profile" src={
+                                                            element.profilePic === "../../assets/profile-images/Ellipse -1.png" ?
+                                                            profile_pic_2 :
+                                                            element.profilePic === "../../assets/profile-images/Ellipse -3.png" ?
+                                                            profile_pic_1 :
+                                                            element.profilePic === "../../assets/profile-images/Ellipse -7.png" ?
+                                                            profile_pic_4 :
+                                                            profile_pic_3
+                                                          } alt=""/>
+                        </td>
+                        <td>{element.name}</td>
+                        <td>{element.gender}</td>
+                        <td>
+                            {element.department && element.department.map((dept =>
+                                (<div className="dept-label">{dept}</div>)))}
+                        </td>
+                        <td>{element.salary}</td>
+                        <td>{element.startDate}</td>
+                        <td>
+                            <img src={editEmp} alt="edit" onClick={() => update(element.id)}/>
+                            <img src={deleteEmp} alt="delete" onClick={() => remove(element.id)} />
+                        </td>
+                    </tr>
+                ))
+            }
         </table>
     );
 }

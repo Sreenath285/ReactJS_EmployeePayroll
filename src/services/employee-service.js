@@ -1,15 +1,14 @@
-import config from '../config/config';
 import axios from 'axios';
 
 class EmployeeService {
-    baseURL = config.baseURL;
+    baseURL = "http://localhost:8089/employeepayroll";
 
     addEmployee = (data) => {
-        return axios.post(`${this.baseURL}employee`, data);
+        return axios.post(`${this.baseURL}/create`, data);
     }
 
     getEmployees = () => {
-        return axios.get(`${this.baseURL}employee`);
+        return axios.get(`${this.baseURL}/`);
     }
 
     getEmployee(employeeID) {

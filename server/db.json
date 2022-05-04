@@ -1,16 +1,17 @@
 {
   "employee": [
     {
-      "name": "Steve",
+      "name": "Natalie",
       "department": [
+        "HR",
         "Others"
       ],
-      "gender": "male",
-      "salary": "441500",
-      "startDate": "17 Sep 2020",
-      "notes": "Update Steve",
-      "id": 1,
-      "profileURL": "../../assets/profile-images/Ellipse -3.png"
+      "gender": "female",
+      "salary": "440900",
+      "startDate": "19 Oct 2020",
+      "notes": "test natalie",
+      "id": 2,
+      "profileURL": "../../assets/profile-images/Ellipse -7.png"
     }
   ]
 }

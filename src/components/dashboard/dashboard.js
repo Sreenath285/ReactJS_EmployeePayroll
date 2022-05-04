@@ -15,7 +15,7 @@ function Dashboard() {
 
     const getAllEmployees = () => {
        EmployeeService.getEmployees().then((response) => {
-           const allEmployees = response.data;
+           const allEmployees = response.data.data;
            setEmployee(allEmployees);
        }).catch((error) => {
            alert(error);
@@ -38,7 +38,7 @@ function Dashboard() {
                 <div className="header-content employee-header">
                     <div className="emp-detail-text">
                         Employee Details
-                        <div className="emp-count"></div>
+                        <div className="emp-count">{employeeArray.length}</div>
                     </div>
                     <Link to="/payroll" className="add-button">
                         <div className="add-button">Add Employee</div>
