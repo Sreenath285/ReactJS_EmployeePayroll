@@ -1,0 +1,16 @@
+{
+  "employee": [
+    {
+      "name": "Steve",
+      "department": [
+        "Others"
+      ],
+      "gender": "male",
+      "salary": "441500",
+      "startDate": "17 Sep 2020",
+      "notes": "Update Steve",
+      "id": 1,
+      "profileURL": "../../assets/profile-images/Ellipse -3.png"
+    }
+  ]
+}
