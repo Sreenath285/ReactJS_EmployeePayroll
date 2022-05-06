@@ -1,0 +1,70 @@
+{
+  "employee": [
+    {
+      "name": "Natalie",
+      "department": [
+        "HR",
+        "Others"
+      ],
+      "gender": "female",
+      "salary": "440900",
+      "startDate": "19 Oct 2020",
+      "notes": "test natalie",
+      "id": 2,
+      "profileURL": "../../assets/profile-images/Ellipse -7.png"
+    },
+    {
+      "name": "Riddler",
+      "department": [
+        "Sales",
+        "Others"
+      ],
+      "gender": "male",
+      "salary": "428100",
+      "startDate": "18 July 2020",
+      "notes": "Test Riddler",
+      "id": 3,
+      "profileURL": "../../assets/profile-images/Ellipse -3.png"
+    },
+    {
+      "name": "Natasha",
+      "department": [
+        "HR",
+        "Others"
+      ],
+      "gender": "female",
+      "salary": "451200",
+      "startDate": "20 Aug 2020",
+      "notes": "Test Natasha",
+      "id": 4,
+      "profileURL": "../../assets/profile-images/Ellipse -1.png"
+    },
+    {
+      "name": "Tony",
+      "department": [
+        "Engineer",
+        "Others"
+      ],
+      "gender": "male",
+      "salary": "454700",
+      "startDate": "18 Oct 2021",
+      "notes": "Test Tony",
+      "id": 5,
+      "profileURL": "../../assets/profile-images/Ellipse -8.png"
+    },
+    {
+      "name": "Hulk",
+      "department": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "gender": "male",
+      "salary": "449500",
+      "startDate": "19 Sept 2021",
+      "notes": "Test Hulk",
+      "id": 6,
+      "profileURL": "../../assets/profile-images/Ellipse -8.png"
+    }
+  ]
+}
