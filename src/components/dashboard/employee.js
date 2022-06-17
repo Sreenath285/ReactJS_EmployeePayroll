@@ -12,13 +12,12 @@ import EmployeeService from "../../services/employee-service";
 
 const Employee = (props) => {
 
-    const update= (id) => {
-        props.history.push(`payroll/${id}`);
+    const update= (employeeId) => {
+        props.history.push(`payroll/${employeeId}`);
     }
 
-    const remove = (id) => {
-        EmployeeService.deleteEmployee(id).then((response) => {
-            console.log(response.data);
+    const remove = (employeeId) => {
+        EmployeeService.deleteEmployee(employeeId).then((response) => {
             window.location.reload();
         }).catch((error) =>{
             alert(error)
@@ -60,8 +59,8 @@ const Employee = (props) => {
                         <td>{element.salary}</td>
                         <td>{element.startDate}</td>
                         <td>
-                            <img src={editEmp} alt="edit" onClick={() => update(element.id)}/>
-                            <img src={deleteEmp} alt="delete" onClick={() => remove(element.id)} />
+                            <img src={editEmp} alt="edit" onClick={() => update(element.employeeId)}/>
+                            <img src={deleteEmp} alt="delete" onClick={() => remove(element.employeeId)} />
                         </td>
                     </tr>
                 ))

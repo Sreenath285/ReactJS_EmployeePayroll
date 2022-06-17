@@ -12,15 +12,15 @@ class EmployeeService {
     }
 
     getEmployee(employeeID) {
-        return axios.get(`${this.baseURL}employee/${employeeID}`);
+        return axios.get(`${this.baseURL}/get/${employeeID}`);
     }
 
     updateEmployee(employeeID,data) {
-        return axios.put(`${this.baseURL}employee/${employeeID}`, data);
+        return axios.put(`${this.baseURL}/update/${employeeID}`, data);
     }
 
     deleteEmployee(employeeID) {
-        return axios.delete(`${this.baseURL}employee/${employeeID}`);
+        return axios.delete(`${this.baseURL}/delete/${employeeID}`);
     }
 }
 
